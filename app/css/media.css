@@ -1,0 +1,65 @@
+@media only screen and (max-width: 1024px) {
+	.container{
+		width: 100% !important;
+	}
+	
+}
+@media only screen and (max-width: 768px) {
+	.header-content .header-wrapper-content{
+		width: 90%;
+		left: 3%;
+		flex-direction: column;
+	}
+	.header-content .header-wrapper-content .header-wrapper-text{
+		width: 100%;
+	}
+	.header-wrapper .header-bar{
+		flex-direction: row;
+		width: 100%;
+		padding: 0rem;
+	}
+	.social-networks{
+		flex-direction: row;
+	}
+	.skills-wrapper .about-content-wrapper .wrapper-skills{
+		align-items: center;
+    	flex-direction: column;
+	}
+	.skills-wrapper .about-content-wrapper .wrapper-skills .wrapper-skills-list{
+		width: 100%;
+	}
+	.skills-wrapper .about-content-wrapper .wrapper-skills .wrapper-skills-list li .skills-icon{
+		height: auto;
+	}
+	.wrapper-education .wrapper-education-text, .wrapper-education .wrapper-education-time, .wrapper-education .wrapper-education-text-down{
+		display: none;
+	}
+	.wrapper-education .education-mobile-list{
+		display: block;
+	}
+	.works-container .works-parent .works-img{
+		display: none;
+	}
+	.works-container .works-parent .works-child-content{
+		width: 100%;
+	}
+	.works-container .works-parent .works-child .mobile-link-work{
+		display: inline-block;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.header-content .header-wrapper-content{
+		position: static;
+		width: 100%;
+		border: none;
+	}
+	.header-content .header-wrapper-content .header-wrapper-text{
+		margin-top: 2rem;
+	}
+	.contact-parent{
+		flex-direction: column;
+	}
+	.contact-parent .contact-child{
+		width: 100%;
+	}
+}
